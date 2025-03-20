@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+      "target": "ES6",
+      "module": "commonjs",
+      "strict": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "outDir": "./dist",         // Указывает директорию для скомпилированных файлов
+      "rootDir": "./src"          // Указывает корневую директорию исходного кода
+    },
+    "include": ["src/**/*"],        // Указывает, какие файлы компилировать
+    "exclude": ["node_modules"]     // Игнорирование папки node_modules
+  }

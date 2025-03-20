@@ -1,0 +1,30 @@
+{
+  "name": "ragbot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brand989/RAGBot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brand989/RAGBot/issues"
+  },
+  "homepage": "https://github.com/brand989/RAGBot#readme",
+  "description": "",
+  "dependencies": {
+    "@types/node": "^22.13.10",
+    "dotenv": "^16.4.7",
+    "langchain": "^0.3.19",
+    "node-fetch": "^3.3.2",
+    "telegraf": "^4.16.3"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.2"
+  }
+}
